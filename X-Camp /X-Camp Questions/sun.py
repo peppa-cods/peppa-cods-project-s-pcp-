@@ -1,0 +1,20 @@
+import turtle as t
+
+t.fillcolor("red")
+t.penup()
+t.goto(0,-100)
+t.pendown()
+t.begin_fill()
+t.circle(100)
+t.end_fill()
+for x in range(12):
+  t.circle(100, 30)
+  t.rt(90)
+  t.penup()
+  t.fd(15)
+  t.pendown()
+  t.fd(30)
+  t.bk(30)
+  t.penup()
+  t.bk(15)
+  t.lt(90)
